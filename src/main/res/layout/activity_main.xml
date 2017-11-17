@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="com.example.news.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:orientation="horizontal"
+        android:id="@+id/main_ll_head"
+        android:layout_alignParentTop="true"
+        android:background="#00C07F">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="怪蜀黍news"
+            android:textSize="22sp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="35dp"
+            android:background="#fff"
+            android:hint="你想搜的,这里都没有"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/main_et_input"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/seek"
+            android:id="@+id/main_iv_seek"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+            <ListView
+                android:id="@+id/main_lv_show"
+                android:layout_below="@id/main_ll_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ListView>
+
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="娱乐"
+            android:textSize="15sp"
+            android:id="@+id/main_btn_yule"
+            android:textColor="#fff"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button_bg"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="社会"
+            android:textSize="15sp"
+            android:id="@+id/main_btn_shehui"
+            android:textColor="#fff"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button_bg"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="头条"
+            android:textSize="15sp"
+            android:id="@+id/main_btn_toutiao"
+            android:textColor="#fff"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button_bg"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="国内"
+            android:textSize="15sp"
+            android:id="@+id/main_btn_location"
+            android:textColor="#fff"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button_bg"/>
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="国际"
+        android:textSize="15sp"
+        android:id="@+id/main_btn_guoji"
+        android:textColor="#fff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/button_bg"/>
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="体育"
+        android:textSize="15sp"
+        android:id="@+id/main_btn_tiyu"
+        android:textColor="#fff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/button_bg"/>
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="军事"
+        android:textSize="15sp"
+        android:id="@+id/main_btn_junshi"
+        android:textColor="#fff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/button_bg"/>
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="财经"
+        android:textSize="15sp"
+        android:id="@+id/main_btn_caijing"
+        android:textColor="#fff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/button_bg"/>
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="时尚"
+        android:textSize="15sp"
+        android:id="@+id/main_btn_fashion"
+        android:textColor="#fff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/button_bg"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="科技"
+            android:textSize="15sp"
+            android:id="@+id/main_btn_keji"
+            android:textColor="#fff"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button_bg"/>
+
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="科技"
+            android:textSize="15sp"
+            android:onClick="get"
+            android:textColor="#fff"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/main_btn_show"
+            android:background="@drawable/button_bg"/>
+
+</RelativeLayout>
